@@ -1,0 +1,6 @@
+- hosts: mysql
+  roles:
+  - docker-app-server
+  - mysql
+  tags:
+  - mysql
